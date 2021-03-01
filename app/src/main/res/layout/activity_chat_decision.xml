@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatDecision">
+
+    <TextView
+        android:id="@+id/txtTalkoutcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="268dp"
+        android:text="TextView"
+        android:fontFamily="@font/alphakind"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtYou"
+        android:layout_width="180dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:fontFamily="@font/alphakind"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/txtTalkoutcome"
+        app:layout_constraintStart_toStartOf="@+id/txtTalkoutcome"
+        app:layout_constraintTop_toBottomOf="@+id/txtTalkoutcome" />
+
+    <Button
+        android:id="@+id/btnChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Continue"
+        android:fontFamily="@font/alphakind"
+        app:layout_constraintEnd_toEndOf="@+id/txtYou"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="@+id/txtYou"
+        app:layout_constraintTop_toBottomOf="@+id/txtYou" />
+</androidx.constraintlayout.widget.ConstraintLayout>
